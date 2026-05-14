@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    
+    real contagem = 10
+
+    enquanto(contagem>=1){
+      escreva(contagem,"\n")
+
+      contagem = contagem - 1
+    
+}
+
+}
+}
