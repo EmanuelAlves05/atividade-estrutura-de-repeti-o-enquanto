@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    
+  real numero = 1
+
+  enquanto(numero<=10){
+    escreva(numero,"\n")
+
+    numero = numero + 1 
+  }
+
+  }
+}
