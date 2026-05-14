@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+    real contador = 1, n1, pares = 0
+
+    enquanto(contador<=10){
+      escreva("Digite um número\n")
+      leia(n1)
+
+
+      se(n1 % 2 == 0){
+        pares = pares + 1
+}
+      contador = contador + 1
+}
+
+    escreva(pares," são pares")
+}
+}
