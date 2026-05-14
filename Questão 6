@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    
+  real n1, contador = 1, multiplicacao=0
+    escreva("Qual o seu numero?\n")
+    leia(n1)
+  
+  enquanto(contador<=10){
+   
+    multiplicacao = n1 * contador
+
+    escreva(n1, "x", contador, "=", multiplicacao,"\n")
+    contador = contador + 1
+}
+}
+}
